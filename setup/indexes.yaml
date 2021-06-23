@@ -73,3 +73,27 @@ indexes:
     expireAfterSeconds: 0
     key:
       e: 1
+
+- collection: mids
+  index:
+    name: mids_t
+    key:
+      t: 1
+
+- collection: mids
+  index:
+    name: mids_t_reverse
+    key:
+      t: -1
+
+- collection: messages
+  index:
+    name: messages_t_reverse
+    key:
+      t: -1
+
+- collection: messages
+  index:
+    name: messages_t
+    key:
+      t: 1
