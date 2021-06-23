@@ -1,4 +1,3 @@
-
 auth = true # set to true to enable authentication
 user = "admin"
 pass = "secretpass"
@@ -20,6 +19,7 @@ logsdb = "logs"
 retention = 2592000000 # 30 days
 
 mongo = "mongodb://127.0.0.1:27017/logs"
+# @include "private.toml"
 
 [log]
 level = "info"

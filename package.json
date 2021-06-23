@@ -17,11 +17,11 @@
         "cookie-parser": "1.4.4",
         "express": "4.16.4",
         "express-session": "1.15.6",
-        "hbs": "4.0.3",
+        "hbs": "^4.1.1",
         "humanize": "0.0.9",
         "ioredis": "4.9.0",
         "joi": "^14.3.1",
-        "js-yaml": "3.13.0",
+        "js-yaml": "^3.14.0",
         "libmime": "4.0.1",
         "mailsplit": "4.2.4",
         "mongo-cursor-pagination-node6": "^5.0.0",
@@ -32,5 +32,8 @@
         "request": "2.88.0",
         "search-string": "^3.1.0",
         "wild-config": "1.4.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.11.0"
     }
 }
